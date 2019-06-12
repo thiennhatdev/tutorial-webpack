@@ -17,3 +17,4 @@ Hướng dẫn webpack
       module.exports = config;
   )
 - Cài thêm : npm i -g webpack-cli nếu bị lỗi không cài được webpack cli.
+- Sử dụng : webpack để chạy => nó sẽ tạo ra thư mục build chứa file bundle.js
