@@ -25,3 +25,5 @@ Hướng dẫn webpack
 - Cài thêm : npm i -g webpack-cli nếu bị lỗi không cài được webpack cli.
 - Sử dụng : webpack để chạy => nó sẽ tạo ra thư mục build chứa file bundle.js
 - Nhúng file bundle.js vào dile index mới có thể sử dụng được.
+- Để lấy ảnh nhanh thì vào lorempixel.com/height/width và copy url.
+- Cài các pagkage như : babel-core,babel-preset-env,babel-loader,css-loader,style-loader.
