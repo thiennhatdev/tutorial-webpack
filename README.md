@@ -28,3 +28,5 @@ Hướng dẫn webpack
 - Để lấy ảnh nhanh thì vào lorempixel.com/height/width và copy url.
 - Cài các pagkage như : babel-core,babel-preset-env,babel-loader,css-loader,style-loader.
 - Để trình duyệt hiểu được cú pháp của react thì cài thêm : babel-preset-react.Trong .babelrc thêm : {"presets" : ["babel-preset-react","react"]}
+- Thay đổi scripts trong package.json thành : build :"webpack" rồi chạy npm run build thay vì gõ webpack
+-
