@@ -16,3 +16,4 @@ Hướng dẫn webpack
       }
       module.exports = config;
   )
+- Cài thêm : npm i -g webpack-cli nếu bị lỗi không cài được webpack cli.
