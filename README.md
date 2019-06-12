@@ -27,6 +27,7 @@ Hướng dẫn webpack
 - Nhúng file bundle.js vào dile index mới có thể sử dụng được.
 - Để lấy ảnh nhanh thì vào lorempixel.com/height/width và copy url.
 - Cài các pagkage như : babel-core,babel-preset-env,babel-loader,css-loader,style-loader.
-- Để trình duyệt hiểu được cú pháp của react thì cài thêm : babel-preset-react v.Trong .babelrc thêm : {"presets" : ["babel-preset-react","react","stage-2"]}
+- Để trình duyệt hiểu được cú pháp của react thì cài thêm : babel-preset-react và babel-preset-stage-2 
+.Trong .babelrc thêm : {"presets" : ["babel-preset-react","react","stage-2"]}
 - Thay đổi scripts trong package.json thành : build :"webpack" rồi chạy npm run build thay vì gõ webpack
 -
