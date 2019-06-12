@@ -1,5 +1,11 @@
 # tutorial-webpack
 Hướng dẫn webpack
+- Tác dụng của webpack:
+  + Xử lý file trước khi import vào
+  + Chuyển đổi jsx sang js
+  + Require css vào js
+  ...
+  
 - Tạo file webpack.config.js để lưu cấu hình webpack cho project
   + Nội dung file config:( 
     const path = require('path');
