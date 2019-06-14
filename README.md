@@ -30,4 +30,5 @@ Hướng dẫn webpack
 - Để trình duyệt hiểu được cú pháp của react thì cài thêm : babel-preset-react và babel-preset-stage-2 
 .Trong .babelrc thêm : {"presets" : ["babel-preset-react","react","stage-2"]}
 - Thay đổi scripts trong package.json thành : build :"webpack" rồi chạy npm run build thay vì gõ webpack
--
+- Trong webpack không thể dùng BrowserRouter mà phải dùng HashRouter mới được.
+
