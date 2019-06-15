@@ -32,4 +32,5 @@ Hướng dẫn webpack
 - Thay đổi scripts trong package.json thành : build :"webpack" rồi chạy npm run build thay vì gõ webpack
 - Trong webpack không thể dùng BrowserRouter mà phải dùng HashRouter mới được.
 - Để ảnh có thể hiển thị thì đường dẫn phải đứng từ file index.html mới được/
+- Để thêm sass vào thì install node-sass và sass-loader,sau đó cấu hình thêm vào webpack config như css.
 
