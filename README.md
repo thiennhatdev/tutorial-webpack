@@ -33,4 +33,12 @@ Hướng dẫn webpack
 - Trong webpack không thể dùng BrowserRouter mà phải dùng HashRouter mới được.
 - Để ảnh có thể hiển thị thì đường dẫn phải đứng từ file index.html mới được/
 - Để thêm sass vào thì install node-sass và sass-loader,sau đó cấu hình thêm vào webpack config như css.
-
+- Để import font-awesome thì dùng code sau :
+  + npm install --save-dev @fortawesome/fontawesome-free
+      
+  + Trong index.js
+      import '@fortawesome/fontawesome-free/js/fontawesome'
+      import '@fortawesome/fontawesome-free/js/solid'
+      import '@fortawesome/fontawesome-free/js/regular'
+      import '@fortawesome/fontawesome-free/js/brands'
+-
